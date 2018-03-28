@@ -5,7 +5,7 @@ count=0
 echo "Enter the email ID"
 read user
 
-sanity=`su - zimbra -c "zmprov -l gaa | grep -i -e $user -e zimbraMailAlias "`
+sanity=`su - zimbra -c "zmprov -l gaa | grep -i -e $user"`
 
 if [ -z $sanity ]; then
         echo "$user does not exist"
