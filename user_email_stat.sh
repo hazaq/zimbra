@@ -26,7 +26,7 @@ arg_check () {
         fi
 
         if [ $2 != '-r' ] && [ $2 != '-s' ]; then
-                echo "Incorrect argument for send or recieve"
+                echo "Incorrect argument for send or receive"
                 usage
                 exit 0
         fi
@@ -69,7 +69,7 @@ done
 if [ $check = '-s' ]; then
         word='sent'
 elif [ $check = '-r' ]; then
-        word='recieved'
+        word='received'
 fi
 echo "Total emails $word in last $days days"
 echo $count
