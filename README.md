@@ -11,4 +11,11 @@ Usage:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-t to view log trace Optional  
 
 Example:
-&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To get total number of email sent by user@example.com 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_email_stat.sh user@example.com -s
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will do just like above example and give you the log trace
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_email_stat.sh user@example.com -s -t
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will give you the total number of email recevied by the user
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_email_stat.sh user@example.com -r
