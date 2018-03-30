@@ -6,9 +6,9 @@ If -r is passed as the second argument it will output total email received and -
 You can also ask the script to give a log trace of the email sent or received by passing in '-t' argument.
 
 Usage:   
-&nbsp;&nbsp;&nbsp;&nbsp; get_email_stat.sh user@domain -s|-r [-t]  
-&nbsp;&nbsp;&nbsp;&nbsp; -s for sender or -r for recipient  
-&nbsp;&nbsp;&nbsp;&nbsp; -t to view log trace Optional  
+&nbsp;&nbsp;&nbsp;&nbsp;get_email_stat.sh user@domain -s|-r [-t]  
+&nbsp;&nbsp;&nbsp;&nbsp;-s for sender or -r for recipient  
+&nbsp;&nbsp;&nbsp;&nbsp;-t to view log trace Optional  
 
 Example:
 &nbsp;&nbsp;&nbsp;&nbsp; 
