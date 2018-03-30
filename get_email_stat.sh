@@ -50,7 +50,7 @@ spin()
 	done
 }
 
-spinner=( '\' '-' '/' '|' );
+spinner=( '/' '-' '\' '|' );
 logdays=`ls /var/log | grep -i zimbra.log- | wc -l`
 count=0
 user=$1
